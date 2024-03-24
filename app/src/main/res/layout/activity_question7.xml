@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- "YOU EARNED $100" text positioned on top -->
+    <TextView
+        android:id="@+id/headingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOU EARNED $10,000"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:background="#e6fff6"
+        android:padding="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"/>
+
+    <!-- Box Container with Background, positioned in the middle -->
+    <RelativeLayout
+        android:id="@+id/boxContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e6fff6"
+        android:padding="16dp"
+        android:layout_centerInParent="true">
+
+        <!-- Question TextView -->
+        <TextView
+            android:id="@+id/questionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"/>
+
+        <!-- Options RadioGroup -->
+        <RadioGroup
+            android:id="@+id/optionsRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/questionTextView"
+            android:layout_marginTop="16dp" />
+
+        <!-- Confirm Button -->
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:textColor="#000000"
+            android:backgroundTint="#d3d3d3"
+            android:layout_below="@id/optionsRadioGroup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp" />
+    </RelativeLayout>
+</RelativeLayout>

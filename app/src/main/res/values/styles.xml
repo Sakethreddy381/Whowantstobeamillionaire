@@ -1,0 +1,10 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Other theme attributes -->
+
+        <!-- Apply Cinzel font family -->
+        <item name="android:fontFamily">@font/font_family</item>
+    </style>
+</resources>
+

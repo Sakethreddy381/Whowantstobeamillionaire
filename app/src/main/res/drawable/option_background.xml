@@ -1,0 +1,15 @@
+<!-- custom_radio_button.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/black" />
+            <!-- You can customize other attributes like size, stroke, etc. here -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/white" />
+            <!-- You can customize other attributes like size, stroke, etc. here -->
+        </shape>
+    </item>
+</selector>
